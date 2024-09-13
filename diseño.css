@@ -1,0 +1,79 @@
+header {
+    background-color: #000000; /* Color de fondo sólido */
+    color: #fff; /* Color del texto */
+    padding: 10px; /* Espacio interno */
+    text-align: left; /* Alineación del texto */
+}
+
+header h1 {
+    margin: 0; /* Elimina el margen por defecto */
+    font-size: 24px; /* Tamaño del texto */
+}
+
+header h2 {
+    margin: 0; /* Elimina el margen por defecto */
+    font-size: 18px; /* Tamaño del texto */
+    color: #ffffff; /* Color del texto */
+    margin-top: 5px; /* Espacio entre el título y el subtítulo */
+}
+
+.fondo {
+    background: linear-gradient(to right, #FF5722, #FFC107); /* Degradado lineal de naranja a amarillo */
+    color: white; /* Color del texto */
+    padding: 15px; /* Espacio interno */
+    display: flex; /* Alinea los elementos en una fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espacio entre los elementos */
+}
+
+.datos {
+    display: flex; /* Alinea los elementos en una fila dentro de 'datos' */
+    flex-direction: column; /* Elementos en columna */
+    align-items: center; /* Alinea los elementos al centro */
+    width: 350px; /* Ancho del cuadro */
+    background-color: #080523;
+    height: 1000px; /* Altura automática para ajustarse al contenido */
+    border: 5px solid #000000; /* Borde */
+}
+
+.cuadro {
+    width: 330px;
+    height: 250px;
+    border: 5px solid #a90b0b;
+    overflow: hidden; /* Evita que la imagen se desborde */
+}
+
+.cuadro img {
+    width: 100%; /* La imagen se ajusta al ancho del cuadro */
+    height: 100%; /* La imagen se ajusta a la altura del cuadro */
+    object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
+}
+
+.cuadro2 {
+    width: 300px; /* Ajusta el ancho del cuadro de texto para que coincida con la imagen */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo transparente */
+    color: white; /* Color del texto */
+    border: 2px solid #fff;
+    border-radius: 2px;
+    font-size: 14px; /* Ajusté el tamaño de la fuente para que sea más legible */
+    padding: 10px; /* Espaciado interno */
+    margin-top: 10px; /* Espacio entre la imagen y el cuadro de texto */
+    text-align: left; /* Centra el texto dentro del cuadro */
+}
+
+.nuevo-cuadro {
+    width: 1000px; /* Ajusta el ancho del nuevo cuadro */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo transparente */
+    color: white; /* Color del texto */
+    border: 2px solid #fff;
+    border-radius: 2px;
+    font-size: 14px; /* Tamaño de la fuente */
+    padding: 10px; /* Espaciado interno */
+}
+
+.footerl {
+    background-color: #000000; /* Color de fondo sólido */
+    color: #fff; /* Color del texto */
+    padding: 10px; /* Espacio interno */
+    text-align: center; /* Alineación del texto */
+}
